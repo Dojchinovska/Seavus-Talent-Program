@@ -2,11 +2,10 @@ package com.company;
 
 import java.util.*;
 
-public class Main {
+public class Application {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String sentence = sc.nextLine();
+        String sentence = new Scanner(System.in).nextLine();
         char[] content = sentence.toCharArray();
 
         HashMap<Character, Integer> mapa = new HashMap<Character, Integer>();
@@ -18,8 +17,10 @@ public class Main {
                 mapa.put(ch, 1);
             }
         }
-        for (Map.Entry<Character, Integer> val : mapa.entrySet()) {
-            System.out.println(val.getKey() + " " + val.getValue().toString());
+
+        for (HashMap.Entry<Character, Integer> val : mapa.entrySet()) {
+            System.out.println("Character: " + val.getKey() + "  Number of occurrences: " + val.getValue().toString());
         }
+
     }
 }
