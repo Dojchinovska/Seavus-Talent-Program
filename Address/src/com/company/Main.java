@@ -16,15 +16,13 @@ public class Main {
         Integer zipCode = sc.nextInt();
 
         try {
+
             Address adr = new Address(street, strNum, city, zipCode);
             System.out.println(adr);
 
         } catch (ZipCodeException e) {
 
-            {
-                System.out.println(e.getMessage());
-            }
-
+            System.out.println(e.getMessage());
         }
     }
 }

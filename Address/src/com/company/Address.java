@@ -21,12 +21,12 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
-                "street='" + street + '\'' +
-                ", strNum=" + strNum +
-                ", city='" + city + '\'' +
-                ", zipCode=" + zipCode +
-                '}';
+        return "Address: " +
+                "Street = '" + street + '\'' +
+                ", Street number = " + strNum +
+                ", City = '" + city + '\'' +
+                ", ZipCode = " + zipCode +
+                ' ';
     }
 
     public boolean isZipCodeValid(int val) {
