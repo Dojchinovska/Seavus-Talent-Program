@@ -1,11 +1,9 @@
 package com.company;
-
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
 
         String input = new Scanner(System.in).nextLine();
         String[] result = input.split("\\s+");
@@ -55,6 +53,7 @@ public class Main {
                 case "zero":
                     value = 0;
                     break;
+
                 default:
                     System.out.println("Invalid input");
                     break;
@@ -62,8 +61,6 @@ public class Main {
             sum += value;
 
             System.out.print(sum);
-
         }
-
     }
 }

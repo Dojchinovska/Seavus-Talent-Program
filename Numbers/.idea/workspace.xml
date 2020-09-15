@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636d23bb-c812-438e-9eff-3a70158011c4" name="Default Changelist" comment="Code reformat">
-      <change afterPath="$PROJECT_DIR$/../CharCounter/CharCounter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../svs-talent-program-2020.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled104.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CharCounter/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CharCounter/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DateParser_/out/production/DateParser_/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DateParser_/out/production/DateParser_/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DateParser_/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DateParser_/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YearlyCalendar/out/production/YearlyCalendar/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../YearlyCalendar/out/production/YearlyCalendar/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../YearlyCalendar/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../YearlyCalendar/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
