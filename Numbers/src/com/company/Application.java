@@ -8,7 +8,6 @@ public class Application {
 
         String input = new Scanner(System.in).nextLine();
         String[] result = input.split("\\s+");
-        String[] result1;
 
         for (String x : result) {
             int sum = 0;
@@ -18,6 +17,7 @@ public class Application {
                 case "one":
                     value = 1;
                     break;
+
                 case "two":
                     value = 2;
                     break;
@@ -37,7 +37,6 @@ public class Application {
                 case "six":
                     value = 6;
                     break;
-
 
                 case "seven":
                     value = 7;
@@ -59,9 +58,8 @@ public class Application {
                     System.out.println("Invalid input");
                     break;
             }
-            sum += value;
 
-            System.out.print(sum);
+            System.out.print(value);
         }
     }
 }

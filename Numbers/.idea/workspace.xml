@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636d23bb-c812-438e-9eff-3a70158011c4" name="Default Changelist" comment="Code reformat">
-      <change beforePath="$PROJECT_DIR$/../DateParser_/out/production/DateParser_/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DateParser_/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DateParser_/src/com/company/DateParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Seavus-Talent-Program.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Numbers/com/company/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Numbers/com/company/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,22 +83,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="291" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600102632023" />
-    <state width="699" height="188" key="GridCell.Tab.0.bottom" timestamp="1600191239840">
+    <state width="699" height="188" key="GridCell.Tab.0.bottom" timestamp="1600253264132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600191239840" />
-    <state width="699" height="188" key="GridCell.Tab.0.center" timestamp="1600191239839">
+    <state width="699" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600253264132" />
+    <state width="699" height="188" key="GridCell.Tab.0.center" timestamp="1600253264130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600191239839" />
-    <state width="699" height="188" key="GridCell.Tab.0.left" timestamp="1600191239838">
+    <state width="699" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600253264130" />
+    <state width="699" height="188" key="GridCell.Tab.0.left" timestamp="1600253264129">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600191239838" />
-    <state width="699" height="188" key="GridCell.Tab.0.right" timestamp="1600191239840">
+    <state width="699" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600253264129" />
+    <state width="699" height="188" key="GridCell.Tab.0.right" timestamp="1600253264131">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600191239840" />
+    <state width="699" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600253264131" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600102565867">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
