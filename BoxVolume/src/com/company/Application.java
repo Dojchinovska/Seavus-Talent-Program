@@ -9,6 +9,6 @@ public class Application {
         int depth=sn.nextInt();
 
         Box b = new Box(height,width,depth);
-        System.out.println(b);
+        System.out.println(b + " has volume of " + b.getBoxVolume());
     }
 }

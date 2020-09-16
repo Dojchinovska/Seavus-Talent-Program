@@ -15,15 +15,14 @@ public class Box {
 
     @Override
     public String toString() {
-        return "Volume of the box with values: \n" +
+        return "Box{" +
                 "width=" + width +
                 ", height=" + height +
                 ", depth=" + depth +
-                " is " + this.volumeBox();
+                '}';
     }
 
-    int volumeBox(){
-
+    int getBoxVolume(){
         return height*width*depth;
     }
 }
