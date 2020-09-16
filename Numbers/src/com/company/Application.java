@@ -10,7 +10,7 @@ public class Application {
         String[] result = input.split("\\s+");
 
         for (String x : result) {
-            int sum = 0;
+
             int value = 0;
 
             switch (x) {
