@@ -33,6 +33,4 @@ public class Address {
         int numDigits = String.valueOf(val).length();
         return numDigits == 5 || numDigits == 9 ? true : false;
     }
-
-
 }
