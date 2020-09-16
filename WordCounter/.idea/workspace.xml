@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/../.idea/Seavus-Talent-Program.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CharCounter/src/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CharCounter/src/com/company/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Numbers/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WordCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCounter.class" afterDir="false" />
     </list>
@@ -76,22 +78,22 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="676" y="148" key="#com.intellij.ide.util.MemberChooser/0.23.1440.834@0.23.1440.834" timestamp="1600260006864" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1600269183704">
+    <state width="868" height="216" key="GridCell.Tab.0.bottom" timestamp="1600274459491">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1600269183704" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1600269183702">
+    <state width="868" height="216" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1600274459491" />
+    <state width="868" height="216" key="GridCell.Tab.0.center" timestamp="1600274459488">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1600269183702" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1600269183701">
+    <state width="868" height="216" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1600274459488" />
+    <state width="868" height="216" key="GridCell.Tab.0.left" timestamp="1600274459487">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1600269183701" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1600269183703">
+    <state width="868" height="216" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1600274459487" />
+    <state width="868" height="216" key="GridCell.Tab.0.right" timestamp="1600274459489">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1600269183703" />
+    <state width="868" height="216" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1600274459489" />
     <state x="437" y="79" key="SettingsEditor" timestamp="1600259841009">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
