@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/Seavus-Talent-Program.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,22 +80,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="291" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600102632023" />
-    <state width="699" height="188" key="GridCell.Tab.0.bottom" timestamp="1600257990879">
+    <state width="699" height="188" key="GridCell.Tab.0.bottom" timestamp="1600268600400">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600257990879" />
-    <state width="699" height="188" key="GridCell.Tab.0.center" timestamp="1600257990877">
+    <state width="699" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600268600400" />
+    <state width="699" height="188" key="GridCell.Tab.0.center" timestamp="1600268600398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600257990877" />
-    <state width="699" height="188" key="GridCell.Tab.0.left" timestamp="1600257990875">
+    <state width="699" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600268600398" />
+    <state width="699" height="188" key="GridCell.Tab.0.left" timestamp="1600268600397">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600257990875" />
-    <state width="699" height="188" key="GridCell.Tab.0.right" timestamp="1600257990878">
+    <state width="699" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600268600397" />
+    <state width="699" height="188" key="GridCell.Tab.0.right" timestamp="1600268600399">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="699" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600257990878" />
+    <state width="699" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600268600399" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600102565867">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

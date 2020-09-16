@@ -10,7 +10,6 @@ public class Application {
         String[] result = input.split("\\s+");
 
         for (String x : result) {
-
             int value = 0;
 
             switch (x) {
