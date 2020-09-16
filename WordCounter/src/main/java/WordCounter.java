@@ -15,9 +15,7 @@ public class WordCounter {
         String[] words = content.split(" ");
 
         for (String word : words) {
-
             word = word.replaceAll("[^a-zA-Z]", "");
-
         }
         HashMap<String, Integer> m = new HashMap<String, Integer>();
 
@@ -26,10 +24,7 @@ public class WordCounter {
         }
 
         for (HashMap.Entry<String, Integer> value : m.entrySet()) {
-
             out.println("<" + value.getKey() + "> : <" + value.getValue() + ">");
-
         }
-
     }
 }
