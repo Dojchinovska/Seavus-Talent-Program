@@ -12,6 +12,5 @@ public class DateParser {
         String year = scn.substring(6, 10);
 
         System.out.println("Month: " + month + " Day: " + day + " Year: " + year);
-
     }
 }
