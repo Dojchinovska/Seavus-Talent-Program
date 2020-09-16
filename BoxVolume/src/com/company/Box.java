@@ -13,7 +13,16 @@ public class Box {
 
     }
 
-    int createBox(){
+    @Override
+    public String toString() {
+        return "Volume of the box with values: \n" +
+                "width=" + width +
+                ", height=" + height +
+                ", depth=" + depth +
+                " is " + this.volumeBox();
+    }
+
+    int volumeBox(){
 
         return height*width*depth;
     }

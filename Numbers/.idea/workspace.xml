@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="636d23bb-c812-438e-9eff-3a70158011c4" name="Default Changelist" comment="Code reformat">
-      <change afterPath="$PROJECT_DIR$/../.idea/Seavus-Talent-Program.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Numbers/com/company/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Numbers/com/company/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoxVolume/out/production/BoxVolume/META-INF/BoxVolume.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoxVolume/out/production/BoxVolume/com/company/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoxVolume/out/production/BoxVolume/com/company/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoxVolume/out/production/BoxVolume/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoxVolume/src/com/company/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoxVolume/src/com/company/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoxVolume/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoxVolume/src/com/company/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

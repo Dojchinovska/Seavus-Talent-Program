@@ -1,6 +1,6 @@
 package com.company;
 import java.util.*;
-public class Main {
+public class Application {
 
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
@@ -9,6 +9,6 @@ public class Main {
         int depth=sn.nextInt();
 
         Box b = new Box(height,width,depth);
-        System.out.println("Volume of the box: "+ b.createBox());
+        System.out.println(b);
     }
 }
