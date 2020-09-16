@@ -13,6 +13,7 @@ public class WordCounter {
         File file = new File("file.txt");
         String content = FileUtils.readFileToString(file, "UTF-8");
         String[] words = content.split(" ");
+
         for (String word : words) {
 
             word = word.replaceAll("[^a-zA-Z]", "");
@@ -26,7 +27,7 @@ public class WordCounter {
 
         for (HashMap.Entry<String, Integer> value : m.entrySet()) {
 
-            out.println("<" + value.getKey() + "> <" + value.getValue() + ">");
+            out.println("<" + value.getKey() + "> : <" + value.getValue() + ">");
 
         }
 
