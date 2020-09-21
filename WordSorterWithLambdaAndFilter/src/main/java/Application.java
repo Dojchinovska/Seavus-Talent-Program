@@ -13,7 +13,7 @@ public class Application {
         String[] words = content.split(" ");
         List<String> list = new ArrayList<>();
 
-        System.out.println("Enter 'asc' for ascending and 'desc' for descending order: ");
+        System.out.println("Enter 'asc' for ascending and 'desc' for descending order:");
         String sortBy = new Scanner(System.in).nextLine().toLowerCase();
 
         System.out.println("Enter minimum word length: ");
@@ -46,9 +46,10 @@ public class Application {
                     .sorted(((o1, o2) -> -Integer.compare(o1.length(), o2.length())))
                     .collect(Collectors.toList());
         } else {
-            System.out.println("Invalid input");
+            System.out.println("Invalid input.");
             return;
         }
+
         list.stream().distinct().forEach(System.out::println);
     }
 }
