@@ -11,7 +11,7 @@ public class Application {
         File file = new File("file.txt");
         String content = FileUtils.readFileToString(file, "UTF-8");
         String[] words = content.split(" ");
-        List<String> list = new ArrayList<>(Arrays.asList(content));
+        List<String> list = new ArrayList<>();
 
         System.out.println("Enter 'asc' for ascending and 'desc' for descending order: ");
         String sortBy = new Scanner(System.in).nextLine().toLowerCase();
