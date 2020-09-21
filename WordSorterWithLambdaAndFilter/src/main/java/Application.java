@@ -21,8 +21,6 @@ public class Application {
         System.out.println("Enter maximum word length: ");
         int max = new Scanner(System.in).nextInt();
 
-        Stream<String> stream = list.stream();
-
         list = Arrays.stream(words)
                 .map(word -> word.replaceAll("[^a-zA-Z]", "").toLowerCase())
                 .filter(word ->
