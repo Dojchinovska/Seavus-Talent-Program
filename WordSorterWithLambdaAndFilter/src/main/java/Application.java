@@ -25,22 +25,20 @@ public class Application {
                 .map(word -> word.replaceAll("[^a-zA-Z]", "").toLowerCase())
                 .filter(word ->
                 {
-                    return (min == 0 ? word.length() <= max : word.length() >= min);
+                    return (min == 0 ? true : word.length() >= min);
                 })
                 .filter(word ->
                 {
-                    return (max == 0 ? word.length() >= min : word.length() <= max);
+                    return (max == 0 ? true : word.length() <= max);
                 })
                 .collect(Collectors.toList());
 
         if (sortBy.equals("asc")) {
             list = list.stream()
-                    .distinct()
                     .sorted(((o1, o2) -> Integer.compare(o1.length(), o2.length())))
                     .collect(Collectors.toList());
         } else if (sortBy.equals("desc")) {
             list = list.stream()
-                    .distinct()
                     .sorted(((o1, o2) -> -Integer.compare(o1.length(), o2.length())))
                     .collect(Collectors.toList());
         } else {
