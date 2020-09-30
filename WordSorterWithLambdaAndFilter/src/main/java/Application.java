@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Application {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InvalidInputException {
 
         File file = new File("file.txt");
         String content = FileUtils.readFileToString(file, "UTF-8");
@@ -21,7 +21,9 @@ public class Application {
         System.out.println("Enter maximum word length: ");
         int max = new Scanner(System.in).nextInt();
 
-        list = Arrays.stream(words)
+        if(min > max & max != 0) throw new InvalidInputException();
+
+            list = Arrays.stream(words)
                 .map(word -> word.replaceAll("[^a-zA-Z]", "").toLowerCase())
                 .filter(word ->
                 {
