@@ -28,16 +28,19 @@ public class NotesController {
 
     @GetMapping("/api/notes/{id}")
     public Optional<Note> findNote(@PathVariable Long id) {
+
         return notesService.findNote(id);
     }
 
     @GetMapping("/api/notes")
     public List<Note> findNotes() {
+
         return notesService.findNotes();
     }
 
     @DeleteMapping("/api/notes/{id}")
     public void deleteNote(@PathVariable Long id) {
+
         notesService.deleteNote(id);
     }
 
