@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-class WordSorterilterTestTest {
+class WordSorterFilterTests {
 
     private WordSorterFilterApplication wordSorterFilterApplication;
     List<String> testData = Arrays.asList("sodales", "purus", "purus", "tellus", "lorem", "lorem", "ipsum", "dolor", "et", "consectetur", "adipiscing", "elit");
