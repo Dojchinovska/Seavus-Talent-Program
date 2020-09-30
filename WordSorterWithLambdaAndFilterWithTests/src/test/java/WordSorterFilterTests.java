@@ -33,7 +33,7 @@ class WordSorterFilterTests {
     @Test
     void sortByAscTest() throws InvalidInputException {
         List<String> sortedByAsc = wordSorterFilterApplication.sortList(testData, "asc");
-        Assertions.assertEquals(Arrays.asList("et", "elit", "purus", "purus", "lorem", "lorem", "ipsum", "tellus", "sodales", "consectetur"), sortedByAsc);
+        Assertions.assertEquals(Arrays.asList("et", "elit", "purus", "purus", "lorem", "lorem", "ipsum", "dolor", "tellus", "sodales", "adipiscing", "consectetur"), sortedByAsc);
     }
 
     @Test
