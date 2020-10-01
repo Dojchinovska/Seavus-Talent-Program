@@ -1,4 +1,4 @@
-package com.talent.noteswithoutdatabase.api;
+package com.talent.notesJpa.api;
 
 public class CreateNoteRequest {
     public String title;

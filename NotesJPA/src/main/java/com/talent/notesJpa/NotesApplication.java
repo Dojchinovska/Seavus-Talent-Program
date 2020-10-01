@@ -1,4 +1,4 @@
-package com.talent.noteswithoutdatabase;
+package com.talent.notesJpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
