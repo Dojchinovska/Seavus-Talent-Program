@@ -1,7 +1,7 @@
-package com.talent.noteswithoutdatabase.api;
+package com.talent.notesJpa.api;
 
-import com.talent.noteswithoutdatabase.service.NoteService;
-import com.talent.noteswithoutdatabase.model.Note;
+import com.talent.notesJpa.service.NoteService;
+import com.talent.notesJpa.model.Note;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

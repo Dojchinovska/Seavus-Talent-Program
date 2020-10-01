@@ -1,6 +1,6 @@
-package com.talent.noteswithoutdatabase.repository;
+package com.talent.notesJpa.repository;
 
-import com.talent.noteswithoutdatabase.model.Note;
+import com.talent.notesJpa.model.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface NotesRepository extends JpaRepository<Note,Long> {

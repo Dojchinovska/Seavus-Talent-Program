@@ -1,4 +1,4 @@
-package com.talent.noteswithoutdatabase.model;
+package com.talent.notesJpa.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
