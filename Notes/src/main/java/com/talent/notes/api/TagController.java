@@ -11,6 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class TagController {
 
@@ -45,9 +46,17 @@ public class TagController {
         tagService.deleteTagById(id);
     }
 
-    @PostMapping("api/tags")
-    public Tag createTag(@RequestBody CreateNoteRequest createNoteRequest) {
-        return tagService.createTag(createNoteRequest.name);
+    @PostMapping("/api/tags")
+    public Tag createTag(@RequestBody Tag tag) {
+        return tagService.createTag(tag);
     }
+
+
+    @PutMapping("/api/tags/{id}")
+    public Tag editTag(@PathVariable Long id, @RequestBody Tag tag){
+        return tagService.editTag(id, tag);
+    }
+
+
 
 }

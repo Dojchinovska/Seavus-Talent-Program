@@ -36,14 +36,21 @@ public class TagService {
     }
 
     public void deleteTagById(Long id) {
-
-        tagRepository.deleteById(id);
+        Tag tag = findTag(id).orElseThrow(RuntimeException::new);
+        tagRepository.delete(tag);
     }
 
-    public Tag createTag(String name) {
+    public Tag createTag(Tag t) {
 
         User user = securityService.getAuthenticatedUser();
-        Tag tag = new Tag(name, user);
+        t.setUser(user);
+        return tagRepository.save(t);
+    }
+
+    public Tag editTag(Long id, Tag t){
+        Tag tag = findTag(id).orElseThrow(RuntimeException::new);
+        tag.setName(t.getName());
         return tagRepository.save(tag);
     }
+
 }

@@ -5,12 +5,15 @@ import com.talent.notes.security.SecurityService;
 import com.talent.notes.service.NoteService;
 import com.talent.notes.model.Note;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.MimeTypeUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
+@RequestMapping(produces = MimeTypeUtils.APPLICATION_JSON_VALUE)
 public class NotesController {
 
     private NoteService notesService;
@@ -25,7 +28,9 @@ public class NotesController {
     }
 
     public static class CreateNoteRequest {
+
         public String title;
+
         public String content;
     }
 

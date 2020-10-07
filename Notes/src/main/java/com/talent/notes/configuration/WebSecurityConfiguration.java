@@ -29,7 +29,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.httpBasic().and().authorizeRequests().antMatchers("/").permitAll()
                 .and()
-                .authorizeRequests().antMatchers("/h2-console/**").permitAll().antMatchers("/api/**").authenticated()
+                .authorizeRequests().antMatchers("/h2-console/**").permitAll().antMatchers("/api/**").permitAll()
                 .and()
                 .headers().frameOptions().disable()
                 .and()
