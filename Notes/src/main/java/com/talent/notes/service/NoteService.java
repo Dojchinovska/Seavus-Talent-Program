@@ -28,12 +28,6 @@ public class NoteService {
         this.securityService = securityService;
     }
 
-    /*public void createNote(String title, String content) {
-        User user = securityService.getAuthenticatedUser();
-        Note note = new Note(title, content, user, new ArrayList<>());
-        notesRepository.save(note);
-    }*/
-
     public List<Note> findNotes(User user) {
 
         return notesRepository.findByUser(user);
