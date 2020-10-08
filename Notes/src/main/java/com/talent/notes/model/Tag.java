@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -20,6 +22,12 @@ public class Tag {
     private Long id;
 
     private String name;
+    @Column(name = "deleted")
+    private boolean isDeleted;
+
+    @ManyToMany(mappedBy = "tags")
+    @JsonIgnore
+    List<Note> notes = new ArrayList<>();
 
     @JsonIgnore
     @ManyToOne
@@ -28,6 +36,11 @@ public class Tag {
     public Tag(String name, User user) {
         this.name = name;
         this.user = user;
+        this.isDeleted = false;
+    }
+
+    public void setIsDeleted(boolean deleted) {
+        this.isDeleted = deleted;
     }
 
     @Override

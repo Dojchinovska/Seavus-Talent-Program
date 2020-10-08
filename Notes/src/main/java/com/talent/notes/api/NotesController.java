@@ -1,5 +1,6 @@
 package com.talent.notes.api;
 
+import com.talent.notes.model.Tag;
 import com.talent.notes.model.User;
 import com.talent.notes.security.SecurityService;
 import com.talent.notes.service.NoteService;
@@ -27,17 +28,10 @@ public class NotesController {
         this.securityService = securityService;
     }
 
-    public static class CreateNoteRequest {
-
-        public String title;
-
-        public String content;
-    }
-
     @PostMapping("/api/notes")
-    public void createNote(@RequestBody CreateNoteRequest request) {
+    public Note createNote(@RequestBody Note note) {
 
-        notesService.createNote(request.title, request.content);
+        return notesService.createNote(note);
     }
 
     @GetMapping("/api/notes/{id}")

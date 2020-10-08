@@ -5,9 +5,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -23,6 +23,12 @@ public class User {
     private String username;
 
     private String password;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Note> notes = new ArrayList<>();
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Tag> tags = new ArrayList<>();
 
     @Override
     public String toString() {

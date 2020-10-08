@@ -1,6 +1,7 @@
 package com.talent.notes.service;
 
 import com.talent.notes.model.Note;
+import com.talent.notes.model.Tag;
 import com.talent.notes.model.User;
 import com.talent.notes.repository.NotesRepository;
 import com.talent.notes.repository.UserRepository;
@@ -8,6 +9,7 @@ import com.talent.notes.security.SecurityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -26,11 +28,11 @@ public class NoteService {
         this.securityService = securityService;
     }
 
-    public void createNote(String title, String content) {
+    /*public void createNote(String title, String content) {
         User user = securityService.getAuthenticatedUser();
-        Note note = new Note(title, content, user);
+        Note note = new Note(title, content, user, new ArrayList<>());
         notesRepository.save(note);
-    }
+    }*/
 
     public List<Note> findNotes(User user) {
 
@@ -61,5 +63,11 @@ public class NoteService {
         });
 
         return notesRepository.save(n.get());
+    }
+
+    public Note createNote(Note note) {
+        User user = securityService.getAuthenticatedUser();
+        note.setUser(user);
+        return this.notesRepository.saveAndFlush(note);
     }
 }

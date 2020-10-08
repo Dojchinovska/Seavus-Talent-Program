@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
@@ -17,7 +18,7 @@ import java.util.List;
 public class Note {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
 
@@ -25,17 +26,20 @@ public class Note {
 
     private String title;
 
+
     @JsonIgnore
     @ManyToOne()
     private User user;
 
-    @ManyToMany
-    private List<Tag> tags;
 
-    public Note(String title, String content, User user) {
+    @ManyToMany
+    private List<Tag> tags = new ArrayList<>();
+
+    public Note(String title, String content, User user, List<Tag> tags) {
         this.title = title;
         this.content = content;
         this.user = user;
+        this.tags = tags;
     }
 
     @Override

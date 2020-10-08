@@ -40,6 +40,12 @@ public class TagService {
         tagRepository.delete(tag);
     }
 
+    public void deleteTag(Long id){
+        Tag tag = findTag(id).orElseThrow(RuntimeException::new);
+        tag.setIsDeleted(true);
+        tagRepository.save(tag);
+    }
+
     public Tag createTag(Tag t) {
 
         User user = securityService.getAuthenticatedUser();
